@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Send To Trello Options</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <script src="jquery-1.7.2.min.js"></script>
+  <script src="trello-client.js"></script>
+  <script src="options.js"></script>
+</head>
+<body>
+  <div id="loggedOut"><a href="#">Login to Trello</a></div>
+  <div id="loggedIn">
+    <div>Logged in as <span id="userName"></span> <a id="logout" href="#">Logout</a>
+    </div>
+    <div><label>Board <select id="board"></select></label></div>
+    <div><label>List <select id="list"></select></label></div>
+    <div><button id="save">Save</button><span id="status"></span></div>
+  </div>
+</body>
+</html>
